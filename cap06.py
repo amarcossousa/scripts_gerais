@@ -123,7 +123,6 @@ from numpy import square
 def distance(x1, y1, x2, y2):
     return x1 + y1 / x2 - y2
 
-print(distance(5, 5, 4, 5))
 
 
 
