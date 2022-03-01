@@ -117,6 +117,3 @@ def _geom_predicate_query(left_df, right_df, predicate):
         )
 
     return indices
-
-    
-
