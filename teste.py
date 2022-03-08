@@ -1,5 +1,6 @@
 from unittest import TestCase, main
 from cap06 import distance
+import cap07
 from aleatorio import Calculadora
 from func_ack import ack
 from palindrome import teste_string, last
@@ -21,7 +22,8 @@ class TestFunc(TestCase):
     def teste_mid(self):
         self.assertEqual(last('ba'), 'a')
         
-        
+    def teste_sqrt(self):
+        self.assertEqual(cap07.mysqrt('a'), None)
 
 if __name__ == '__main__':
     main()
