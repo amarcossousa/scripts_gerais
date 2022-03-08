@@ -1,7 +1,8 @@
 # Exercico 01
 
 def mysqrt(a):
-    pass
+    a =+1
+    return a
 
 
     # while True:
