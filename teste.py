@@ -28,8 +28,7 @@ class TestFunc(TestCase):
     def teste_square_math(self):
         self.assertEqual(square_math(4, 3), 2)
     
-    def teste_square_root(self):
-        self.assertEqual(teste_square_root(2, 2), '')
+
 
 if __name__ == '__main__':
     main()
