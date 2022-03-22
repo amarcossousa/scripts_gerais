@@ -1,7 +1,6 @@
 
 import math
 
-from numpy import square
 
 # # #Valores de retorno
 
