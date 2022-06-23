@@ -1,6 +1,5 @@
 nfact = int(input("Digite um valor para fatorial: "))
-fact = 1
-x = 1
+fact, x = 1, 1
 
 if nfact == 0:
     fact = 1
